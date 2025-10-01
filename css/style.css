@@ -1,0 +1,8 @@
+body {
+  cursor: url('/assets/light/arrow.cur'), default;
+}
+
+a,
+[href] {
+  cursor: url('/assets/light/hand.cur'), pointer;
+}
