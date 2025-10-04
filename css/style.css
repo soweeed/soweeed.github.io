@@ -6,3 +6,10 @@ a,
 [href] {
   cursor: url('/assets/light/hand.cur'), pointer;
 }
+
+/* 针对图注的样式 */
+figure figcaption {
+    text-align: center;
+    color: #2980B9;
+    font-size: 0.85em;
+}
