@@ -546,7 +546,7 @@ Loop，PLL）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><
 })()</script><script>(() => {
   const runMermaid = ele => {
     window.loadMermaid = true
-    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'neutral'
 
     ele.forEach((item, index) => {
       const mermaidSrc = item.firstElementChild
@@ -581,7 +581,7 @@ Loop，PLL）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><
   }
 
   const loadMermaid = () => {
-    if (true) codeToMermaid()
+    if (false) codeToMermaid()
     const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
     if ($mermaid.length === 0) return
 
